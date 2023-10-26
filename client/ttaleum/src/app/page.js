@@ -1,9 +1,12 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import styles from "./page.module.scss";
+import Item from "@/components/Item";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+<<<<<<< HEAD
+      <Item />
+=======
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -92,6 +95,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+>>>>>>> 339a77a87aaa4022ced3019fd53034e5b9f2ed2d
     </main>
-  )
+  );
 }
